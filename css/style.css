@@ -1,0 +1,36 @@
+/* SITE */
+	.section-contato{background-color: #e5e5e5; padding: 1em 0;}
+	.subtitulo{color: #f58220; font-size: 1.8em; border-bottom: 2px solid #888; text-transform: uppercase; margin: 1em 0; font-weight: bold;}
+	.form{margin: 1em 0;}
+	.form input, .form textarea{border-radius: 10px; background: #e5e5e5;}
+	.form button{border-radius: 10px;}
+	.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder{color: black;}
+	.form input:-moz-placeholder, .form textarea:-moz-placeholder{color: black;}
+	.form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder{color: black;}
+	.bl-mapa{margin: 1em 0;}
+
+	/*==========  REPONSIVO - Non-Mobile First Method  ==========*/
+
+	/*	Dispositivos muito pequenos (smartphones em formato paisagem, e abaixo de 576px) */
+	@media (min-width: 320px) and (max-width: 575px) { 
+		.section-contato{padding: 0;}
+		.subtitulo{text-align: center; padding-top: 0.4em; margin: 0.5em 0;}
+		.form .btn-padrao{width: 100%;}
+		.bl-mapa p{text-align: center;}
+	}
+	
+	/* Dispositivos pequenos (smartphones em formato retrato, e abaixo de 768px) */
+	@media (min-width: 576px) and (max-width: 767px) { 
+		.form .btn-padrao{width: 100%;}
+	}
+	
+	/* Dispositivos médios (tablets, e abaixo de 992px) */
+	@media (min-width: 768px) and (max-width: 991px) { 
+		.form .btn-padrao{width: 100%;}
+		
+	}
+	
+	/* Dispositivos grandes (desktops, e abaixo de 1200px) */
+	@media (min-width: 992px) and (max-width: 1199px) { 
+		
+	}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mensagens</title>
+    <script src="js/cadastro.js" defer></script>
+    <link rel="stylesheet" href="css/cadastro.css" />
+  </head>
+  <body>
+   
+    <div id="post" class="hide">
+      <div id="post-container"></div>
+       
+        <form id="comment-form">
+          <div>
+            <button type="button" class="clear" id="login"  onclick="pglogin()" ><u>Login</u></button>
+          </div>   
+          <div class="logo">
+            <img src="img/logo_cadastro.png" height="320px" width="320px">
+          </div>
+           <div>
+            <div><label for="nome">Nome:</label></div>
+            <input
+           
+             name="nome"
+             class="tema"
+             id="nome"
+             placeholder="Digite o nome."
+             required
+             />
+          </div>
+          <div>
+            <div><label for="cpf">CPF:</label></div>
+            <input
+           
+             name="cpf"
+             class="tema"
+             id="cpf"
+             placeholder="Digite o CPF"
+             required
+             />
+          </div>
+          <div><label for="email" >Email</label></div>
+          <input type="email" name="email" id="email" onchange="onChangeEmail()" placeholder="Seu@email.com"/>
+            <div>
+          <div>
+            <div><label for="telefone">Telefone:</label></div>
+            <input
+           
+             name="telefone"
+             class="tema"
+             id="telefone"
+             placeholder="Digite o telefone"
+             required
+             />
+          </div>
+         
+            <div><label for="apartamento">Apartamento:</label></div>
+            <input
+           
+             name="apartamento"
+             class="tema"
+             id="apartamento"
+             placeholder="Digite o apartamento"
+             required
+             />
+          </div>
+          <div>
+            <div><label for="bloco">Bloco:</label></div>
+            <input
+           
+             name="bloco"
+             class="tema"
+             id="bloco"
+             placeholder="Digite o bloco"
+             required
+             />
+          </div>
+         
+            <div>  
+           <div><label>Senha</label></div>
+           <input type="password" name="password" id="password" onchange="onChangePassword()" placeholder="Digite a senha"/>  
+       </div>
+           <input type="submit" class="botao" value="Cadastrar" />
+           
+           </form>
+           
+    </div>
+  </body>
+
+</html>

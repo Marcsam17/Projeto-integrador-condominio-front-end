@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Acesso_Esplanada</title>
+  
+</head>
+<body>
+    
+  <form>
+    <div class="logo">
+		<img src="img/logo.png" height="320px" width="320px">
+	</div>
+     
+    <div>
+        <div><label>Email</label></div>
+        <input type="email" name="email" id="email" onchange="onChangeEmail()" placeholder="Seu@email.com"/>
+        <div class="error" id="email-required-error" >Email é obrigatorio</div>
+        <div class="error" id="email-invalid-error" >Email invalido</div>
+    </div>
+    <div>  
+        <div><label>Senha</label></div>
+        <input type="password" name="password" id="password" onchange="onChangePassword()" placeholder="Senha"/>
+        <div class="error" id="password-required-error" >Senha é obrigatoria</div>     
+    </div>
+    <div>
+        <button type="button" class="clear" id="recover-password-buton" disabled="true" >Recuperar Senha</button>
+    </div>    
+    <div>
+        <button type="button" class="solid" id="login-button" disabled="true" onclick="carregarUsuarios()" >Entrar</button>
+    </div>
+    <div>
+        <button type="button" class="outline" onclick="register()" >Registrar</button>
+    </div>
+    </form>
+</body>
+<link rel="stylesheet" href="css/login.css" />
+
+<script src="js/login.js"></script> 
+
+</html>    

@@ -1,0 +1,54 @@
+body {
+    /*background: rgb(30, 37, 30);*/
+    background: #e5e5e5;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: rgb(88, 161, 75);
+    margin-left: 1px;
+    
+}
+input {
+    padding: 10px;
+    margin-bottom: 1px;
+    border-radius: 6px;
+    width: -webkit-fill-available;
+  
+}
+
+.clear {
+    background: transparent;
+    border: none;
+    /*color: rgb(88, 161, 75);*/    
+    color: rgb(161, 68, 18);
+    cursor: pointer;
+}
+.clear:active{
+    opacity: 0.5;
+}
+
+
+.botao {
+    /*background: rgb(75, 174, 62);*/
+    background: rgb(227, 125, 29);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.botao:active{
+    opacity: 0.8;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-bottom: 2px;
+    margin-top: 30px;
+    height: 3px;
+
+}

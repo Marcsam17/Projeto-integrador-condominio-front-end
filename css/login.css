@@ -1,0 +1,54 @@
+
+    body {
+        /*background: rgb(30, 37, 30);*/
+        background: #e5e5e5;;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: rgb(88, 161, 75);
+        margin-left: 1px;
+        
+    }
+    input, button {
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        width: -webkit-fill-available;
+      
+    }
+    button {
+        cursor: pointer;
+        
+    }
+    button:active {
+        opacity: 0.8;
+    }
+    button:disabled {
+        opacity: 0.5;
+    }
+    .clear {
+        background: transparent;
+        border: none;
+        /*color: rgb(88, 161, 75);*/
+        color: rgb(161, 68, 18);
+    }
+    .solid {
+        /*background: rgb(75, 174, 62);*/
+        background: rgb(227, 125, 29);
+        border: none;
+        border-radius: 10px;
+
+    }
+    .outline {
+        background: transparent;
+        color: rgb(92, 169, 53);
+        border: 1px solid rgb(6, 175, 43);
+        border-radius: 10px;
+    }
+    .error {
+        color: white;
+        background: rgb(131, 42, 42);
+        opacity: 0.7;
+        display: none;
+    }
